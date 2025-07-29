@@ -171,6 +171,7 @@ MonoBehaviour:
   hiddeniconsprite: {fileID: 2329837333289014359, guid: 70009a5dfb8fc834e956e3427e001164, type: 3}
   iconsprite: {fileID: 0}
   isSelected: 0
+  controller: {fileID: 0}
 --- !u!114 &2379288738729637476
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -217,7 +218,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 2375925348920688844}
         m_TargetAssemblyTypeName: Card, Assembly-CSharp
-        m_MethodName: show
+        m_MethodName: OnClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
